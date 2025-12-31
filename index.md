@@ -5,7 +5,17 @@ title: Home
 
 ## Welcome to David's Lab (0xbb)
 
-Here are my research notes on Signal Processing, AI, and RL.
+Here are my research notes on Signal Processing, AI, Reinforcement Learning,
+and end-to-end autonomous systems.
+
+---
+
+### Research Notes / Ideas (WIP)
+
+- **End-to-End Trajectory Prediction**  
+  *Directly predicting future trajectories from perception and latent world states,  
+  bridging representation learning and control.*  
+  *(Work in progress)*
 
 ---
 
