@@ -17,6 +17,8 @@ and end-to-end autonomous systems.
   bridging representation learning and control.*  
   *(Work in progress)*
 
+
+RL and image ?
 ---
 
 ### Recent Posts
