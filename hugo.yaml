@@ -7,6 +7,7 @@ enableInlineShortcodes: true
 
 params:
   defaultTheme: auto
+  comments: true
   
   homeInfoParams:
     Title: "Hi there 👋"
@@ -15,3 +16,13 @@ params:
   socialIcons:
     - name: github
       url: "https://github.com/david0xbb"
+    - name: email
+      url: "mailto:davidzhuprime@icloud.com"
+      target: "_self"
+
+menu:
+  main:
+    - identifier: posts
+      name: Posts
+      url: /posts/
+      weight: 10

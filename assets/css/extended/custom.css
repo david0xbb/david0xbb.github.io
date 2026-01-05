@@ -1,0 +1,116 @@
+:root {
+    --gap: 14px !important;
+    --content-gap: 15px !important;
+    --nav-width: 100% !important;
+}
+
+.first-entry {
+    margin-bottom: 20px !important;
+    min-height: auto !important;
+}
+.home-info {
+    margin-bottom: 10px !important;
+}
+.main {
+    padding-top: 10px !important;
+}
+.post-entry {
+    margin-bottom: 12px !important;
+}
+
+@media screen and (min-width: 1400px) {
+    
+    .nav {
+        margin: 0 !important;
+        width: 100% !important;
+        align-items: flex-start !important;
+    }
+
+    .logo {
+        position: fixed !important;
+        top: 0 !important;
+        height: var(--header-height) !important; 
+        line-height: var(--header-height) !important;
+        
+        left: calc((100vw - var(--main-width) - var(--gap) * 2) / 2 - 200px) !important;
+        
+        z-index: 100;
+        pointer-events: auto;
+        
+        display: flex !important;
+        flex-direction: row !important; 
+        align-items: center !important; 
+        flex-wrap: nowrap !important;
+    }
+
+    /* Logo 文字 (David's Log) */
+    .logo a {
+        font-size: 24px !important;
+        font-weight: 700 !important;
+        color: var(--primary);
+        text-decoration: none;
+        margin-right: 10px; 
+        line-height: 1;    
+    }
+
+    .logo-switches {
+        display: inline-flex !important;
+        vertical-align: middle;
+        align-items: center; 
+    }
+
+    #theme-toggle {
+        margin: 0 !important;
+        padding: 0 5px !important; 
+    }
+
+    .logo-switches::after {
+        content: "|";          
+        font-size: 16px;       
+        font-weight: 400;
+        color: var(--primary); 
+        
+        margin-left: 1px;      
+        margin-right: 1px;     
+        
+        position: relative;
+        top: -1px;       
+        
+        opacity: 1;            
+    }
+
+    .nav {
+        position: relative;
+        height: var(--header-height) !important;
+        display: flex !important;
+        justify-content: flex-end !important;
+        align-items: center !important; 
+    }
+
+    #menu {
+        display: flex !important;
+        margin-right: calc((100vw - var(--main-width) - var(--gap) * 2) / 2 - 260px) !important;         
+        list-style: none;
+    }
+    
+    #menu li a {
+        font-size: 16px;
+        font-weight: 500;
+        color: var(--primary);
+    }
+    
+    #menu .active {
+        border-bottom: 2px solid var(--primary);
+    }    
+}
+
+@media screen and (max-width: 1399px) {
+    .logo {
+        position: relative !important;
+        left: auto !important;
+        top: auto !important;
+    }
+    .logo-switches::after {
+        display: none !important;
+    }
+}
