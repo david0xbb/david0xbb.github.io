@@ -1,0 +1,17 @@
+baseURL: "https://david0xbb.github.io/"
+languageCode: "en-us"
+title: "David's Log"
+theme: "PaperMod"
+
+enableInlineShortcodes: true
+
+params:
+  defaultTheme: auto
+  
+  homeInfoParams:
+    Title: "Hi there 👋"
+    Content: "Welcome to my research notes on AI, DSP & Life Sciences."
+
+  socialIcons:
+    - name: github
+      url: "https://github.com/david0xbb"
